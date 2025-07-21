@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Kumbh+Sans:wght@100..900&family=My+Soul&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.ttre0{
+    margin-left: 38%;
+     font-size: 25px;
+    font-family: "Boldonse", system-ui;
+     font-weight: 400;
+     font-style: normal;
+}
+/* stylisation de la navbar */
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    background-color: white;
+   z-index: 2;
+   position: fixed;
+   box-shadow: 5cap;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: blue;
+}
+nav h1{
+    padding-left: 30px;
+    font-size: 30px;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 30px;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.presentation{
+   display: flex;
+   position: relative;
+    width: 100%;
+    height: 700px;
+}
+.text{
+    font-size: 45px;
+    position: absolute;
+    left: 47%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.titre2{
+    font-size: 20px;
+    margin-left: 18%;
+    color: white;
+     font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "YOPQ" 300
+}
+.presentation img{
+ width: 100%;
+ height: 100%;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 5%;
+}
+#about div{
+    margin-right: 80px;
+    font-size: 20px;
+    justify-content: center;
+    opacity: 0.75;
+}
+#about img{
+    border-radius: 10%;
+}
+  .cta {
+    display: inline-block;
+    background: rgb(236, 209, 158);
+    color: black;
+    border-radius: 50px;
+    padding: 20px 30px;
+    border: 1px solid black;
+  }
+  
+  .cta:hover {
+    opacity: 0.75;
+    text-decoration: none;
+  }
+  
+.icone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.icone a img{
+    width: 30px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+.icone a img:hover{
+    opacity: 0.5;
+}
+
+  .comp{
+    margin-top: 10%;
+    margin-left: 18%;
+  }
+  .comp h1 {
+     margin-left: 22%;
+     margin-bottom: 5%;
+     font-size: 30px;
+     font-family: "Boldonse", system-ui;
+     font-weight: 400;
+     font-style: normal;
+
+  }
+  .comp2{
+    padding-top: 5%;
+  }
+  .com{
+    width: 130px;
+    margin-right: 20%;
+  }
+  .reali{
+    margin-top: 10%;
+    background-color: black;
+    color: white;
+    padding: 5%;
+  }
+  .reali h1{
+     margin-left: 39%;
+     margin-bottom: 5%;
+     font-size: 30px;
+     font-family: "Boldonse", system-ui;
+     font-weight: 400;
+     font-style: normal;
+  }
+  .reali img{
+    gap: 15px;
+    width: 40%;
+    margin-left: 7%;
+    border-radius: 5%;
+  }
+  .contact{
+    padding: 10%;
+    background-color: black;
+    color: white;
+  }
+  .contact h1{
+     margin-left: 43%;
+     margin-bottom: 5%;
+     font-size: 30px;
+     font-family: "Boldonse", system-ui;
+     font-weight: 400;
+     font-style: normal;
+  }
+ .contact span{
+    margin-left: 65px;
+    font-size: 20px;
+ }
+ .contact em{
+    font-size: 20px;
+    margin-left: 30%;
+ }
+ .contact a{
+    color: white;
+ }
